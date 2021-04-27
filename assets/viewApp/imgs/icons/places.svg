@@ -1,0 +1,9 @@
+<svg id="Icons_Places_ic-places-mall" data-name="Icons / Places / ic-places-mall" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <rect id="Rectangle_335" data-name="Rectangle 335" width="70" height="70" fill="none"/>
+  <g id="ic-places-mall" transform="translate(5.833 10.351)">
+    <rect id="Rectangle_92" data-name="Rectangle 92" width="58.333" height="35" rx="2" transform="translate(0 14.299)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Path_289" data-name="Path 289" d="M6.74,33.867V14.033a.583.583,0,0,1,.583-.583H36.082a.583.583,0,0,1,.583.583V33.867" transform="translate(7.085 15.432)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" fill-rule="evenodd"/>
+    <line id="Line_354" data-name="Line 354" y2="20.417" transform="translate(29.167 28.882)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Path_290" data-name="Path 290" d="M4.19,17.846V9.1h0a50.6,50.6,0,0,1,45.675-.2l.437.2v8.75" transform="translate(2.197 -3.547)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="Icons_Constructions_ic-construction-cone" data-name="Icons / Constructions / ic-construction-cone" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <rect id="Rectangle_173" data-name="Rectangle 173" width="70" height="70" fill="none"/>
+  <g id="ic-construction-cone" transform="translate(8.75 8.244)">
+    <line id="Line_62" data-name="Line 62" x2="52.5" transform="translate(0 53.511)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Path_62" data-name="Path 62" d="M41.83,56.165,25.176,3.665a1.283,1.283,0,0,0-2.508,0L5.78,56.165" transform="translate(2.328 -2.653)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <line id="Line_63" data-name="Line 63" x2="24.762" transform="translate(13.767 36.011)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <line id="Line_64" data-name="Line 64" x1="13.563" transform="translate(19.425 18.365)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

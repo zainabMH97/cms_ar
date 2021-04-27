@@ -1,0 +1,9 @@
+<svg id="Icons_Folders_ic-folder-user" data-name="Icons / Folders / ic-folder-user" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <rect id="Rectangle_261" data-name="Rectangle 261" width="70" height="70" fill="none"/>
+  <g id="ic-folder-user" transform="translate(5.833 9.508)">
+    <path id="Path_202" data-name="Path 202" d="M12,32.237l1.283-4.667c4.229-15.4,22.371-15.4,26.6,0l1.283,4.667" transform="translate(17.167 18.747)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <circle id="Ellipse_55" data-name="Ellipse 55" cx="8.108" cy="8.108" r="8.108" transform="translate(35.642 18.521)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="5"/>
+    <path id="Path_203" data-name="Path 203" d="M19.5,45.217H7.833A5.833,5.833,0,0,1,2,39.383V7.3H54.5a5.833,5.833,0,0,1,5.833,5.833" transform="translate(-2 2.033)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Path_204" data-name="Path 204" d="M2,24.517V7.017A2.917,2.917,0,0,1,4.654,4.1H30.5a2.6,2.6,0,0,1,1.867.846L37,13.433" transform="translate(-2 -4.1)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

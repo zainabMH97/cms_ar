@@ -1,0 +1,8 @@
+<svg id="Icons_Actions_ic-actions-emultiple-edit" data-name="Icons / Actions / ic-actions-emultiple-edit" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <rect id="Rectangle_131" data-name="Rectangle 131" width="70" height="70" fill="none"/>
+  <g id="ic-actions-emultiple-edit" transform="translate(7.647 5.475)">
+    <path id="Path_15" data-name="Path 15" d="M47.2,29.125V45.75a5.833,5.833,0,0,1-5.833,5.833H11.553A5.833,5.833,0,0,1,5.72,45.75V7.833A5.833,5.833,0,0,1,11.553,2H28.762" transform="translate(3.613 -1.866)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="5"/>
+    <path id="Path_16" data-name="Path 16" d="M43.966,47.309v3.5a5.833,5.833,0,0,1-5.833,5.833H8.353A5.833,5.833,0,0,1,2.52,50.809V10.063A5.833,5.833,0,0,1,8.353,4.23h3.5" transform="translate(-2.52 2.408)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="5"/>
+    <path id="Path_17" data-name="Path 17" d="M33.714,2.817a2.917,2.917,0,0,0-4.142,0l-17.5,17.5h0l-.292,8.75a.613.613,0,0,0,.671.642l8.75-.292h0l17.5-17.5a2.917,2.917,0,0,0-.029-4Z" transform="translate(15.228 -1.954)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

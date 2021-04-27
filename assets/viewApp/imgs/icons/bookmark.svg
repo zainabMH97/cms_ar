@@ -1,0 +1,7 @@
+<svg id="Icons_Actions_ic-actions-bookmarks" data-name="Icons / Actions / ic-actions-bookmarks" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <rect id="Rectangle_122" data-name="Rectangle 122" width="70" height="70" fill="none"/>
+  <g id="ic-actions-bookmarks" transform="translate(10.092 4.555)">
+    <path id="Path_6" data-name="Path 6" d="M43.418,56.584,24.227,42.759a.583.583,0,0,0-.671,0L4.335,56.584a.583.583,0,0,1-.875-.5V10.413A5.833,5.833,0,0,1,9.293,4.58H38.46a5.833,5.833,0,0,1,5.833,5.833V56.088a.583.583,0,0,1-.875.5Z" transform="translate(-3.46 4.228)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="5" fill-rule="evenodd"/>
+    <path id="Path_7" data-name="Path 7" d="M5.73,1.56H43.093a5.833,5.833,0,0,1,5.833,5.833V55.168" transform="translate(0.891 -1.56)" fill="none" stroke="#b72a14" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" fill-rule="evenodd"/>
+  </g>
+</svg>
