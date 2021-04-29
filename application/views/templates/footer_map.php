@@ -19,7 +19,7 @@
                   lang="en"
                   type="email"
                   name=""
-                  id=""
+                  id="" 
                   placeholder="بريدك الالكتروني"
                 />
                 <button type="submit">
@@ -108,7 +108,7 @@
               <div class="flist-container">
                 <ul>
                   <li>
-                    <a href="#"> عن الوزارة </a>
+                    <a href="<?php echo base_url();?>home/about_ministry"> عن الوزارة </a>
                   </li>
                   <li>
                     <a href="#"> دوائر الوزارة </a>

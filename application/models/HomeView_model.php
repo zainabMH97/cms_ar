@@ -37,7 +37,7 @@
         public function fetchSliders_posts(){
             $active = 1;
             $term_id = 0;
-            $status = 'publish';
+            $status = 'publish'; 
             $post_title = 'bg';
             $sql = 'SELECT 
             post.post_id,post_title,post_img,post.active,post_description,post_date,status,slider_order,yt_link
@@ -228,9 +228,9 @@
                 INNER JOIN
             term ON term_relation.term_id = term.term_id
         where 
-             post_img IS NOT NULL and post.active = :active and post.status = :status order by post.post_id desc limit :limit';
+             post_img IS NOT NULL and post.active = :active and post.status = :status and term.term_id !=:term_id order by post.post_id desc limit :limit';
             $stmt = $this->db->conn_id->prepare($sql);
-            $stmt->execute([':active' => $active,':status'=>$status,':limit'=>$limit]);
+            $stmt->execute([':active' => $active,':status'=>$status,':limit'=>$limit,':term_id' => 0]);
             $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
             if($row){
                 $result = [];

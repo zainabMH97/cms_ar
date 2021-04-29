@@ -81,11 +81,11 @@
                         <i class="fal fa-chevron-down"></i>
                       </span>
 
-                      <div id="sub-menu3" class="sub-menu">
+                      <div id="sub-menu3" class="sub-menu"> 
                         <div class="sub-container">
                           <ul>
                             <li>
-                              <a href="">عن الوزارة</a>
+                              <a href="<?php echo base_url();?>home/about_ministry">عن الوزارة</a>
                             </li>
                             <li>
                               <a href="<?php echo base_url();?>home/cv">الوزير</a>

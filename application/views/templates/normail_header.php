@@ -80,7 +80,7 @@
                         <div class="sub-container">
                           <ul>
                             <li>
-                              <a href="">عن الوزارة</a>
+                              <a href="<?php echo base_url();?>home/about_ministry">عن الوزارة</a>
                             </li>
                             <li>
                               <a href="<?php echo base_url();?>home/cv">الوزير</a>

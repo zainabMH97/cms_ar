@@ -84,7 +84,7 @@ class Home extends CI_Controller {
         $this->load->view('home/index',$data);
         $this->load->view('templates/footer_view');
        
-        // $this->output->cache(1440);   
+        // $this->output->cache(0.20);   
     }
     
     public function contact_us(){
@@ -100,6 +100,23 @@ class Home extends CI_Controller {
         $this->load->view('home/cv');
         $this->load->view('templates/footer_view');
     }
+
+    public function about_ministry(){
+        $data['title'] = 'عن الوزارة'; 
+        $data['title_agent'] = 'وكلاء الوزارة'; 
+        $data['title_consultant'] = 'المستشارون';
+        $data['agents'] = $this->agent_model->fetch_agents();
+        $data['consultant'] = $this->agent_model->fetch_consultant();
+        $data['news_section'] = $this->homeView_model->fetch_latest_news();
+        $data['right_news_section_col'] = $data['news_section'][0];
+        $data['news_left_section_col'] =array_slice($data['news_section'],1);
+        $this->load->view('templates/normail_header',$data);
+        $this->load->view('home/about_ministry');
+        $this->load->view('templates/card_agent',$data);
+        $this->load->view('templates/card_consultant',$data);
+        $this->load->view('templates/ministry_news',$data);
+        $this->load->view('templates/footer_view');
+    } 
 
     
 }

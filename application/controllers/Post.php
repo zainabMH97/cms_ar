@@ -11,10 +11,10 @@ class Post extends CI_Controller {
         }
     }
 
-    public function planing(){ 
+    public function planing(){  
         $data['title'] = 'وزارة التعليم العالي والبحث العلمي';
         $data['latest_news'] = $this->homeView_model->latest_news();
-        $data['side_term'] = $this->homeView_model->side_term();
+        $data['side_term'] = $this->homeView_model->side_term(); 
         $this->load->view('templates/normail_header',$data);
         $this->load->view('home/office');
         $this->load->view('templates/side_col',$data); 
@@ -58,11 +58,11 @@ class Post extends CI_Controller {
         $config['next_tag_close'] = '</li>';
 
         $config['first_link'] = 'First';
-        $config['first_tag_open'] = '<li class="last">';
+        $config['first_tag_open'] = '<li class="page-no">';
         $config['first_tag_close'] = '</li>';
 
         $config['last_link'] = 'last';
-        $config['last_tag_open'] = '<li class="last">';
+        $config['last_tag_open'] = '<li class="page-no">';
         $config['last_tag_close'] = '</li>';
 
         // Initialize

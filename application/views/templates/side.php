@@ -84,6 +84,16 @@
                     </ul>
                 </li>
 
+                <li class=" nav-item"><a href=""><i class="la la-plus-circle"></i><span class="menu-title" >agents & consultant</span><span class="badge badge badge-info badge-pill float-right mr-2">2</span></a>
+                    <ul class="menu-content">
+                        <li><a class="menu-item" href="<?php echo base_url(); ?>agents_consultant/addNewAgent"><i></i><span >Add New</span></a>
+                        </li>
+                        <li><a class="menu-item" href="<?php echo base_url(); ?>agents_consultant/edit_agent"><i></i><span >Edit Agents </span></a>
+                        </li>
+                    </ul>
+                </li>
+
+
                 <?php }  ?>
                 <!--
                     ////////////////////////////////////////////////////Ctegory main admin////////////////////////////////////////////////////
