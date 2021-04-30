@@ -102,7 +102,7 @@ class Home extends CI_Controller {
     }
 
     public function about_ministry(){
-        $data['title'] = 'عن الوزارة'; 
+        $data['title'] = 'عن الوزارة';  
         $data['title_agent'] = 'وكلاء الوزارة'; 
         $data['title_consultant'] = 'المستشارون';
         $data['agents'] = $this->agent_model->fetch_agents();
@@ -111,7 +111,7 @@ class Home extends CI_Controller {
         $data['right_news_section_col'] = $data['news_section'][0];
         $data['news_left_section_col'] =array_slice($data['news_section'],1);
         $this->load->view('templates/normail_header',$data);
-        $this->load->view('home/about_ministry');
+        $this->load->view('home/about_ministry',$data);
         $this->load->view('templates/card_agent',$data);
         $this->load->view('templates/card_consultant',$data);
         $this->load->view('templates/ministry_news',$data);

@@ -1,34 +1,5 @@
-<div class="office-title-container">
-        <div class="container">
-          <div class="office-title">
-            <!-- ? Breadcrumb -->
-            <div class="my-breadcrumb">
-              <ol>
-                <li>
-                  <a href="<?php echo base_url();?>">الرئيسية</a> 
-                </li>
-                <li>
-                  <a href="">دوائر الوزارة</a>
-                </li>
-              </ol>
-            </div>
-            <!-- end breadcrumb -->
-            <div class="page-title">السيرة الذاتية للوزير</div>
-          </div>
-        </div>
-      </div>
-      <!-- end of header -->
-      <div class="decoration2">
-        <img
-          class="decoration-img"
-          src="<?php echo base_url();?>assets/viewApp/imgs/decoration/decoration_light.svg"
-        />
-      </div>
-      <div class="master-cover">
-        <img src="<?php echo base_url();?>assets/viewApp/imgs/main_carousel/carousel_1_2.jpg" alt="" />
-      </div>
-    </section>
-    <!--? ==== end of main section -->
+
+  <!--? ==== end of main section -->
 
     <!-- ? === NORMAL SECTIONS === -->
     <section class="normal">

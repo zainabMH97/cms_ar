@@ -1,34 +1,4 @@
-<div class="office-title-container">
-        <div class="container">
-          <div class="office-title">
-            <!-- ? Breadcrumb -->
-            <div class="my-breadcrumb">
-              <ol>
-                <li>
-                  <a href="<?php echo base_url();?>">الرئيسية</a>
-                </li>
-                <li>
-                  <a href="#">دوائر الوزارة</a>
-                </li>
-              </ol>
-            </div>
-            <!-- end breadcrumb -->
-            <div class="page-title">دائرة الدراسات والتخطيط والمتابعة</div>
-          </div>
-        </div>
-      </div>
-      <!-- end of header -->
-      <div class="decoration2">
-        <img
-          class="decoration-img"
-          src="<?php echo base_url();?>assets/viewApp/imgs/decoration/decoration_light.svg"
-        />
-      </div>
-      <div class="master-cover">
-        <img src="<?php echo base_url();?>assets/viewApp/imgs/main_carousel/carousel_1_2.jpg" alt="" />
-      </div>
-    </section>
-    <!--? ==== end of main section -->
+<!--? ==== end of main section -->
 
     <!-- ? === NORMAL SECTIONS === -->
     <section class="normal">
@@ -582,7 +552,6 @@
           var description = response.result[index].post_description;
           $('.office-news2-cards').append('<div class="col-sm-6" id="news_card"><div class="_card"><a class="post-link" href="'+slug+'"><span class="post-tag">'+tag+'</span><img src="'+img+'" class="img-fluid img-thumbnail"> <div class="title">'+title+'</div></a><div class="post-views"><div class="views"><i class="fas fa-eye"></i><span>'+view+'</span></div><div class="date"><i class="fas fa-calendar-alt"></i><span>'+day+'/'+month+'/'+year+'</span></div></div><div class="post-brief">'+description+'</div></div></div>');
         }
-            // createTable(response.result,response.row);
          }
        });
      }
